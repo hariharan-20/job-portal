@@ -1,0 +1,59 @@
+.add-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.addtwo {
+    border: 0.20000000298023224px solid #707070;
+    border-radius: 4px;
+    background-color: #F8FBFF;
+    padding: 2%;
+}
+
+.addone {
+    text-align: start;
+    width: 42%;
+    border: none;
+    padding: 2% 5%;
+}
+
+.addthree {
+    background-color: #c4c4c4;
+    width: 0px;
+    border-left: 1px solid #c4c4c4;
+    height: 23vh;
+    margin: 6% 0;
+    border-radius: 15px;
+    margin-left: 3.5%;
+}
+
+.addfour {
+    border: none;
+    /* width: 40%; */
+    padding: 2% 5%;
+    margin-left: 4%;
+}
+.toastInfo {
+    background-color: #5471E8;
+}
+
+@media(max-width:800px) {
+    .add-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .addone {
+        width: 100%;
+    }
+
+    .addthree {
+        display: none;
+    }
+
+    .addfour {
+        width: 100%;
+        text-align: center;
+        margin: 3% 0;    
+    }
+}

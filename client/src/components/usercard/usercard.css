@@ -1,0 +1,13 @@
+.user-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    padding: 0 10%;
+    margin-top: 15px;
+
+}
+
+.user-container>p{        
+    margin: 0;
+    margin-bottom: 3px;
+}

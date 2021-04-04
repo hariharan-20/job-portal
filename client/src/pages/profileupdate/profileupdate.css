@@ -1,0 +1,25 @@
+.container-1{
+    padding:1% 5%; 
+}
+.one-input{
+    width: 27vw;
+}
+.year-container{
+    justify-content:space-between;
+    /* width: 30.5vw */
+}
+.month-container{
+    width:10.5rem;
+    padding: 7px;
+}
+@media(max-width:500px){
+    .one-input{
+        width: 90%;
+    }
+    .year-container{
+        width: 100%;
+    }
+    .month-container{
+        width: 7rem;
+    }   
+}

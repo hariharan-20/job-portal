@@ -1,0 +1,132 @@
+.main-container{
+    width: 99%;
+    padding: 1%;
+    cursor:pointer;
+    padding-bottom: 2%;
+}
+.sub-container{
+    padding-top:1% 2%;
+    height:120px;
+    border-radius: 8px;
+}
+.img-container{
+    width:15%;
+    padding:2% 0;
+}
+.img-containertwo{
+    padding:5% 0;
+    border-radius:50%;
+}
+.img-containertwo img{
+    width:80px;
+    object-fit:contain;
+     border-radius:10px;
+}
+.container-one{
+    text-align:start;
+    width:80%;
+    padding-top:10px;
+    margin:1%  1%; 
+}
+.inner-containerone{
+    margin:3% auto; 
+}
+.loader{
+    animation: spin 2s linear infinite;
+    width: 5%;
+    margin-top: 2%;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.inner-containerone  h3:nth-child(1){
+    color:#5471E8;
+    font-weight: 600;
+    text-transform:capitalize;
+    margin-bottom:3px;
+    margin:1% auto; 
+    font-size:18px;
+}
+.inner-containerone  h3:nth-child(2){
+    color:#535353;
+    font-weight: 600;
+    text-transform:capitalize;
+    font-size:14px;
+    margin:1% auto; 
+}
+.container-two{
+    font-size:small;
+    color:#535353;
+    justify-content:space-between;
+    width: 80%;    
+}
+
+#spanMid{
+    width: 33%;
+}
+
+.save-container{
+    align-items:flex-end;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:10%; 
+    height:19vh;
+   }
+.save-container h4{
+       font-size: 14px;
+   }
+@media(max-width: 500px){
+    .main-container{
+        width: 100%;
+        margin: 1% 2%;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        border-radius: 21px;
+        border: 1px solid lightgrey;
+    }
+    .inner-containerone{
+        margin:0% auto;
+        margin-left: 28px;
+        width: 100%;
+    }
+    .inner-containerone  h3:nth-child(1){
+        color:#5471E8;
+        font-weight: 600;
+        text-transform:capitalize;
+        margin-bottom:3px;
+        margin:1% auto;
+        font-size: 20px; 
+    }
+   .save-container{
+    align-items:flex-end;
+    display:flex;
+    flex-direction:column;
+     justify-content:space-between;
+     width:22%; 
+     height:19vh;
+   }
+    .container-two span:nth-child(1){
+        display: none;
+    }
+    .container-two{
+        margin-top: 10px;
+        width: 100%;
+        align-items: center;
+        margin-left: 35px;
+    }
+    .container-two span:nth-child(2){
+        margin-left:-10px;
+    }
+    #spanMid{
+        width: 50%;
+    }
+    .sub-container {
+        padding: 3%;
+        margin: 0 2%;
+    }
+    .img-container{
+        margin-right: 5%;
+    }
+}

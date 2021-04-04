@@ -1,0 +1,51 @@
+.savcontainer{
+    width: 25%;
+    color:#535353;
+    font-size: 13px;
+  
+}
+.savone{
+    width: 25%;
+    color:#535353;
+    font-size: 13px;
+  
+}
+.savetwo{
+    width: 25%;
+    color:#535353;
+    font-size: 13px;
+   
+}
+.savethree{
+    width:25%;  
+    color:#5F78F6;
+    font-size: 13px;
+    display: flex; 
+}
+.savefour{
+    color:#BAB7B7;
+     font-size: 12px;
+    /* margin-top:39px; */
+}
+.app-container{
+    display:flex;
+    flex-direction: row;
+    margin: 1% 0;
+    margin-left: 7.5rem;
+    justify-content: space-between;
+}
+
+@media(max-width:500px){
+    .savcontainer{
+        display: none;
+    }
+    .savethree{
+        /* width: 49%; */
+        color:#B16C6C;
+    }
+    .app-container{
+        /* margin: 1px -103px; */        
+        margin: 2% 0;
+    }
+    
+}

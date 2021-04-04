@@ -1,0 +1,44 @@
+
+.signin-container{
+    height:100vh;
+    width: 100%;
+    background:#FFFFFF;
+}
+
+
+.right-container{
+    padding: 12% 20%;
+}
+
+.signin-container .input{
+    width:100%;
+    border:none;
+    margin-left:10px;
+    padding-left: 10px;
+    border-left: 2px solid #d1d1d1;
+    border-radius: 0;
+}
+.opacity{
+    opacity: 0.5;
+}
+/* 
+media queries*/
+
+@media(max-width:500px){
+    .right-container{        
+       padding: 12% 5%;
+       
+    }
+    .right-container h2{
+        text-align: center;
+        
+    }
+    .signin-container .input{
+        width:50vw;
+        border:none;
+        
+    }
+    .signin-container.formcontainer{
+        padding-left:10px ;
+    }    
+}

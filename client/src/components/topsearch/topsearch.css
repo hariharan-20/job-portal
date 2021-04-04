@@ -1,0 +1,74 @@
+.search-container{
+    /* margin-bottom: 30px; */
+}
+
+.search-innerone{
+    width:100%;
+    height: 3rem;
+   display:flex;
+   border-radius:3px;
+   border:1px solid #00000045;
+   padding:0 15px;
+}
+.search-innertwo{
+    width:40%;
+    display:flex;
+    border-radius:3px;
+    border: 1px solid #00000045;
+    padding: 0 10px;
+    color: #9d9d9d;
+
+}
+.flex-container{
+    margin:auto;
+     width:60vw;
+     justify-content:space-between;
+}
+.search-button{
+    width: 15%;
+   font-size: 13px;
+}
+.auto-complete{    
+    width: 30.3%;
+    padding: 1%;
+    background: #FFFFFF;
+    position: absolute;
+    height: max-content;
+    text-align: left;    
+    box-shadow: 2px 3px 15px #00000029;
+}
+.searchByCompany{
+    width: 50%;
+}
+.search-innertwo{ 
+    width: 33%;
+}
+@media(max-width:500px){
+    .search-innertwo{
+        display: none;
+        width: 0;
+    }
+    .searchByCompany{
+        width: 70%;        
+    }
+    .auto-complete{
+        width:63%;
+    }
+    .search-container{
+        width: 100%;
+        padding: 2% 0;
+    }
+    .search-container>h2{
+        display: none;
+    }
+    .flex-container{
+        width: 100%;
+        justify-content: none;
+    }
+    .search-button{
+        width: 25%;
+    }
+    .flex-container{
+        padding: 1% 5%;
+    }
+}
